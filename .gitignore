@@ -1,0 +1,67 @@
+# =======================
+# Global
+# =======================
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python virtualenvs
+venv/
+env/
+.venv/
+.env/
+
+# =======================
+# Angular - library-frontend
+# =======================
+# Dependencies
+library-frontend/node_modules/
+
+# Build output
+library-frontend/dist/
+library-frontend/out-tsc/
+
+# Logs
+library-frontend/npm-debug.log*
+library-frontend/yarn-debug.log*
+library-frontend/yarn-error.log*
+library-frontend/package-lock.json
+
+# Cache
+library-frontend/.angular/
+library-frontend/.sass-cache/
+library-frontend/.cache/
+
+# =======================
+# Django - library_api
+# =======================
+# Python cache
+library_api/__pycache__/
+library_api/**/*.py[cod]
+library_api/*.py[cod]
+
+# Django specific
+library_api/db.sqlite3
+library_api/staticfiles/
+library_api/media/
+
+# Logs
+library_api/*.log
+
+# Migrations (optional: keep if you want them in repo)
+# library_api/**/migrations/
+
+# =======================
+# Other
+# =======================
+# Environment variables files
+*.env
