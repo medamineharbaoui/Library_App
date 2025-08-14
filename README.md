@@ -1,11 +1,11 @@
-# 📚 Library Management Application
+# Library Management Application
 
 A simple **Fullstack CRUD application** for managing books, built with **Angular** (frontend) and **Django** (backend).  
 The project is fully containerized with **Docker**, so you can run it in a single command.
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Frontend (Angular)
 - Display the list of books (title, author, year)
@@ -22,6 +22,7 @@ The project is fully containerized with **Docker**, so you can run it in a singl
   - `DELETE api/books/:id` → Delete a book
 - Integrated API documentation via **Swagger** at:
 [Backend Documentation Link](http://127.0.0.1:8000/swagger/)
+Available only after runing the application !
 
 
 ### Database
