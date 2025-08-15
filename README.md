@@ -49,8 +49,8 @@ Available only after runing the application !
 
 ### 2️- Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/medamineharbaoui/Library_App.git
+cd Library_App
 ```
 ### 3️- Start the Application
 ```bash
@@ -68,12 +68,12 @@ Serve API documentation at http://localhost:8000/swagger/
 ### Project Structure
 
 ```bash
-📦 project-root
- ┣ 📂 library-frontend     # Angular frontend
- ┣ 📂 library_api          # Django backend
- ┣ 📜 docker-compose.yml   # Multi-container configuration
- ┣ 📜 README.md            # Project documentation
- ┗ 📜 .gitignore           # Ignored files (node_modules, venv, etc.)
+   project-root
+ ┣ library-frontend     # Angular frontend
+ ┣ library_api          # Django backend
+ ┣ docker-compose.yml   # Multi-container configuration
+ ┣ README.md            # Project documentation
+ ┗ .gitignore           # Ignored files (node_modules, venv, etc.)
 
 ```
 
